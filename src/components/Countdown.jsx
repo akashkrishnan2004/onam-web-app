@@ -90,9 +90,7 @@ export default function Countdown() {
           Countdown to Onam
         </h2>
 
-        <div className="flex justify-center mt-5 text-2xl">
-          🌸 🌼 🌸 🌼 🌸
-        </div>
+        <div className="flex justify-center mt-5 text-2xl">🌸 🌼 🌸 🌼 🌸</div>
 
         <p className="mt-8 text-gray-700 max-w-3xl mx-auto text-lg leading-8">
           Every year Kerala joyfully welcomes King Mahabali with colourful
