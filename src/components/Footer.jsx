@@ -105,7 +105,7 @@ export default function Footer() {
             © {new Date().getFullYear()} OnaVerse. All Rights Reserved.
           </p>
 
-          <p className="flex items-center gap-2 text-gray-400 md:text-xl">
+          <p className="flex items-center gap-2 text-gray-400 md:text-xs">
             Made by{" "}
             <span className="font-semibold text-yellow-300">
               Akash Krishnan
