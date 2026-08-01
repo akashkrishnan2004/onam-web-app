@@ -40,7 +40,7 @@ export default function Navbar() {
           href="#home"
           className="text-3xl font-bold text-amber-600 tracking-wide"
         >
-          OnaVerse
+          Maveli Nadu
         </a>
 
         {/* Desktop Menu */}

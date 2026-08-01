@@ -32,7 +32,7 @@ export default function Footer() {
           {/* Brand */}
 
           <div>
-            <h2 className="text-4xl font-bold text-yellow-300">OnaVerse</h2>
+            <h2 className="text-4xl font-bold text-yellow-300">Maveli Nadu</h2>
 
             <p className="mt-6 leading-8 text-gray-300">
               Celebrate the timeless beauty of Kerala's grand festival. OnaVerse
