@@ -83,7 +83,7 @@ export default function Mahabali() {
 
         {/* Right Image */}
 
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0, x: 80 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -94,9 +94,9 @@ export default function Mahabali() {
             alt="King Mahabali"
             className="w-full rounded-[40px] shadow-2xl hover:scale-105 duration-500"
           />
-        </motion.div> */}
+        </motion.div>
 
-        <MahabaliViewer />
+        {/* <MahabaliViewer /> */}
       </div>
     </section>
   );
