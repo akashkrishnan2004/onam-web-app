@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="border-t border-white/20 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-center">
-            © {new Date().getFullYear()} OnaVerse. All Rights Reserved.
+            © {new Date().getFullYear()} Maveli-Nadu. All Rights Reserved.
           </p>
 
           <p className="flex items-center gap-2 text-gray-400 md:text-xs">
