@@ -21,6 +21,7 @@ export default function Hero() {
         muted
         loop
         playsInline
+        poster="/images/hero.webp"
         initial={{ scale: 1 }}
         animate={{ scale: 1.08 }}
         transition={{
