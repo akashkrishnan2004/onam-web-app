@@ -1,0 +1,31 @@
+/* @import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background:#FFF8E7;
+  overflow-x:hidden;
+  font-family: "Poppins", sans-serif;
+} */
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #FFF8E7;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
