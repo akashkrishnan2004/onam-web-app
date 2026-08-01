@@ -107,10 +107,11 @@ export default function Footer() {
 
           <p className="flex items-center gap-2 text-gray-400 md:text-xs">
             Made by{" "}
-            <span className="font-semibold text-yellow-300 md:text-xs">
+            {/* <span className="font-semibold text-yellow-300 md:text-xs">
               Akash Krishnan
-            </span>{" "}
-            with <FaHeart className="text-red-500 md:text-xs" /> for Kerala
+            </span>{" "} */}
+            {/* with  */}
+            <FaHeart className="text-red-500 md:text-xs" /> for Kerala
           </p>
 
           {/* <p className="flex items-center gap-2 text-gray-400">
