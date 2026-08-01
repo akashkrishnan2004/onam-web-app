@@ -118,7 +118,7 @@ export default function Countdown() {
               className="bg-white/70 backdrop-blur-xl rounded-3xl p-10 border border-white shadow-xl hover:shadow-amber-300/50 duration-300"
             >
               <div className="flex justify-center">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-white flex items-center justify-center text-3xl shadow-lg">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-white flex items-center justify-center text-2xl shadow-lg">
                   {item.icon}
                 </div>
               </div>
@@ -136,12 +136,12 @@ export default function Countdown() {
                 transition={{
                   duration: 0.3,
                 }}
-                className="text-6xl font-black text-amber-500 mt-6"
+                className="text-5xl font-black text-amber-500 mt-6"
               >
                 {String(item.value).padStart(2, "0")}
               </motion.h1>
 
-              <p className="mt-4 uppercase tracking-[4px] text-gray-600 font-semibold">
+              <p className="mt-4 uppercase tracking-[4px] text-gray-600 font-semibold text-xs">
                 {item.label}
               </p>
             </motion.div>
