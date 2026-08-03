@@ -17,8 +17,8 @@ function AppRoute() {
     <div className="bg-[#FFF8E7] overflow-x-hidden">
       <Navbar />
       <Hero />
-      <Countdown />
       <AboutOnam />
+      <Countdown />
       <Mahabali />
       <TenDays />
       {/* <Pookalam /> */}

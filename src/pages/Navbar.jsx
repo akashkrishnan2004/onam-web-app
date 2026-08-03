@@ -4,6 +4,7 @@ import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 const links = [
   { name: "Home", href: "#home" },
   { name: "Story", href: "#story" },
+  {name: "Countdown", href : "#countdown"},
   { name: "Mahabali", href: "#mahabali" },
   // { name: "Pookalam", href: "#pookalam" },
   { name: "Sadya", href: "#sadya" },
