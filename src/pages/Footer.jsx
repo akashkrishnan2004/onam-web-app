@@ -1,16 +1,7 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaHeart } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 import { HiArrowUp } from "react-icons/hi";
 
-const quickLinks = [
-  "Home",
-  "Story",
-  "Countdown",
-  "Mahabali",
-  // "Pookalam",
-  "Sadya",
-  // "Gallery",
-  "Wishes"
-];
+import { links, socialLinks } from "../data/data";
 
 export default function Footer() {
   const scrollTop = () => {
@@ -49,13 +40,13 @@ export default function Footer() {
             <h3 className="text-2xl font-semibold mb-6">Quick Links</h3>
 
             <ul className="space-y-4">
-              {quickLinks.map((item) => (
-                <li key={item}>
+              {links.map((link) => (
+                <li key={link.name}>
                   <a
-                    href="#"
+                    href={link.href}
                     className="text-gray-300 hover:text-yellow-300 transition"
                   >
-                    {item}
+                    {link.name}
                   </a>
                 </li>
               ))}
@@ -68,26 +59,15 @@ export default function Footer() {
             <h3 className="text-2xl font-semibold mb-6">Connect</h3>
 
             <div className="flex gap-5">
-              <a
-                href="#"
-                className="w-12 h-12 rounded-full bg-white/10 hover:bg-yellow-400 hover:text-black transition flex items-center justify-center text-xl"
-              >
-                <FaGithub />
-              </a>
-
-              {/* <a
-                href="#"
-                className="w-12 h-12 rounded-full bg-white/10 hover:bg-pink-500 transition flex items-center justify-center text-xl"
-              >
-                <FaInstagram />
-              </a> */}
-
-              <a
-                href="#"
-                className="w-12 h-12 rounded-full bg-white/10 hover:bg-blue-500 transition flex items-center justify-center text-xl"
-              >
-                <FaLinkedin />
-              </a>
+              {socialLinks.map((items) => (
+                <a
+                  key={items.name}
+                  href={items.href}
+                  className="w-12 h-12 rounded-full bg-white/10 hover:bg-yellow-400 hover:text-black transition flex items-center justify-center text-xl"
+                >
+                  {items.icon}
+                </a>
+              ))}
             </div>
 
             <button
@@ -108,12 +88,9 @@ export default function Footer() {
           </p>
 
           <p className="flex items-center gap-2 text-gray-400 md:text-xs">
-            Made by{" "}
-            <span className=" text-yellow-300 md:text-xs ">
-              Akash
-            </span>{" "}
-            with 
-            <FaHeart className="text-red-500 md:text-xs" /> for Kerala
+            Made by <span className=" text-yellow-300 md:text-xs ">Akash</span>{" "}
+            with
+            <FaHeart className="text-red-500 md:text-xl" /> for Kerala
           </p>
 
           {/* <p className="flex items-center gap-2 text-gray-400">

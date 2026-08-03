@@ -3,7 +3,6 @@ import {
   FaCrown,
   FaUtensils,
   FaWater,
-  FaArrowRight,
   FaHeart,
   FaHandsHelping,
   FaSeedling,
@@ -11,6 +10,8 @@ import {
   FaShip,
   FaHome,
   FaStar,
+  FaGithub,
+  FaLinkedin,
 } from "react-icons/fa";
 
 // Sadya.jsx
@@ -378,15 +379,29 @@ export const pookkalamImages = [
   "/images/pookalam6.webp",
 ];
 
-// Navbar links
 // Navbar.jsx
+// Footer.jsx;
 export const links = [
   { name: "Home", href: "#home" },
   { name: "Story", href: "#story" },
-  {name: "Countdown", href : "#countdown"},
+  { name: "Countdown", href: "#countdown" },
   { name: "Mahabali", href: "#mahabali" },
   // { name: "Pookalam", href: "#pookalam" },
   { name: "Sadya", href: "#sadya" },
   // { name: "Gallery", href: "#gallery" },
   { name: "Wishes", href: "#wishes" },
+];
+
+// Footer.jsx
+export const socialLinks = [
+  {
+    name: "Github",
+    icon: <FaGithub />,
+    href: "https://github.com/akashkrishnan2004",
+  },
+  {
+    name: "Linkedin",
+    icon: <FaLinkedin />,
+    href: "https://linkedin.com/in/akash-krishnan2004",
+  },
 ];
