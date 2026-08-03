@@ -24,7 +24,7 @@ export default function Wishes() {
 
   return (
     <section
-      id="Wishes"
+      id="wishes"
       className="py-24 px-6 bg-gradient-to-b from-[#FFF8E7] to-[#FDF4D8]"
     >
       <div className="max-w-4xl mx-auto text-center">
