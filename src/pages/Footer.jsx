@@ -1,9 +1,38 @@
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaShareAlt, FaCheck } from "react-icons/fa";
 import { HiArrowUp } from "react-icons/hi";
+import { useState } from "react";
 
 import { links, socialLinks } from "../data/data";
 
 export default function Footer() {
+  
+  // Share the link
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = async () => {
+    const shareData = {
+      title: "OnaVerse - Celebrate the Spirit of Onam",
+      text: "Experience the beauty and traditions of Onam with OnaVerse! 🌸🌾",
+      url: window.location.href,
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(window.location.href);
+
+        setCopied(true);
+
+        setTimeout(() => {
+          setCopied(false);
+        }, 2000);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
@@ -77,6 +106,24 @@ export default function Footer() {
               <HiArrowUp />
               Back to Top
             </button>
+
+            {/* Share the link */}
+            <button
+              onClick={handleShare}
+              className="mt-6 inline-flex items-center gap-3 rounded-full bg-amber-500 px-6 py-3 text-white font-semibold shadow-lg hover:bg-amber-600 hover:scale-105 transition-all duration-300"
+            >
+              {copied ? (
+                <>
+                  <FaCheck />
+                  Copied!
+                </>
+              ) : (
+                <>
+                  <FaShareAlt />
+                  Share Maveli Nadu
+                </>
+              )}
+            </button>
           </div>
         </div>
 
@@ -90,7 +137,7 @@ export default function Footer() {
           <p className="flex items-center gap-2 text-gray-400 md:text-xs">
             Made by <span className=" text-yellow-300 md:text-xs ">Akash</span>{" "}
             with
-            <FaHeart className="text-red-500 md:text-xl" /> for Kerala
+            <FaHeart className="text-red-500 md:text-xs" /> for Kerala
           </p>
 
           {/* <p className="flex items-center gap-2 text-gray-400">
