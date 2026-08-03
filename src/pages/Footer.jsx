@@ -5,7 +5,7 @@ import { useState } from "react";
 import { links, socialLinks } from "../data/data";
 
 export default function Footer() {
-  
+
   // Share the link
   const [copied, setCopied] = useState(false);
 
@@ -135,9 +135,9 @@ export default function Footer() {
           </p>
 
           <p className="flex items-center gap-2 text-gray-400 md:text-xs">
-            Made by <span className=" text-yellow-300 md:text-xs ">Akash</span>{" "}
-            with
-            <FaHeart className="text-red-500 md:text-xs" /> for Kerala
+            Made by
+            {/* <span className=" text-yellow-300 md:text-xs "></span>{" "} */}
+            <FaHeart className="text-red-500 md:text-xs" />for Kerala
           </p>
 
           {/* <p className="flex items-center gap-2 text-gray-400">
