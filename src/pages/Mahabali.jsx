@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaCrown, FaHeart, FaHandsHelping } from "react-icons/fa";
 
-import MahabaliViewer from "./MahabaliViewer";
+import MahabaliViewer from "../components/MahabaliViewer";
 
 const features = [
   {

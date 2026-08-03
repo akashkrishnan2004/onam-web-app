@@ -1,16 +1,16 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Countdown from "./components/Countdown";
-import AboutOnam from "./components/AboutOnam";
-import Mahabali from "./components/Mahabali";
-import TenDays from "./components/TenDays";
-import Pookalam from "./components/Pookalam";
-import Sadya from "./components/Sadya";
-import BoatRace from "./components/BoatRace";
-import Traditions from "./components/Traditions";
-import Gallery from "./components/Gallery";
-import Wishes from "./components/Wishes";
-import Footer from "./components/Footer";
+import Navbar from "./pages/Navbar";
+import Hero from "./pages/Hero";
+import Countdown from "./pages/Countdown";
+import AboutOnam from "./pages/AboutOnam";
+import Mahabali from "./pages/Mahabali";
+import TenDays from "./pages/TenDays";
+import Pookalam from "./pages/Pookalam";
+import Sadya from "./pages/Sadya";
+import BoatRace from "./pages/BoatRace";
+import Traditions from "./pages/Traditions";
+import Gallery from "./pages/Gallery";
+import Wishes from "./pages/Wishes";
+import Footer from "./pages/Footer";
 
 function AppRoute() {
   return (
@@ -21,11 +21,11 @@ function AppRoute() {
       <AboutOnam />
       <Mahabali />
       <TenDays />
-      <Pookalam />
+      {/* <Pookalam /> */}
       <Sadya />
-      <BoatRace />
+      {/* <BoatRace /> */}
       <Traditions />
-      <Gallery />
+      {/* <Gallery /> */}
       <Wishes />
       <Footer />
       {/* give next set of code */}

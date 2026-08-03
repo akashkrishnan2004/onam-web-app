@@ -5,9 +5,9 @@ const links = [
   { name: "Home", href: "#home" },
   { name: "Story", href: "#story" },
   { name: "Mahabali", href: "#mahabali" },
-  { name: "Pookalam", href: "#pookalam" },
+  // { name: "Pookalam", href: "#pookalam" },
   { name: "Sadya", href: "#sadya" },
-  { name: "Gallery", href: "#gallery" },
+  // { name: "Gallery", href: "#gallery" },
   { name: "Wishes", href: "#wishes" },
 ];
 
