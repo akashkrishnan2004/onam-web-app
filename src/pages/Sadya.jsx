@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import { dishes } from "../data/dishes";
+import { dishes } from "../data/data";
 import Hotspot from "../components/Hotspot";
-import SadyaHotspot from "../components/SadyaHotspot";
 import Arrow from "../components/Arrow";
 
 export default function Sadya() {

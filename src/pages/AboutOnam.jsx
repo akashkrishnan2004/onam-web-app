@@ -1,36 +1,12 @@
 import { motion } from "framer-motion";
 import {
   FaLeaf,
-  FaCrown,
-  FaUtensils,
-  FaWater,
   FaArrowRight,
 } from "react-icons/fa";
 
-export default function AboutOnam() {
-  const features = [
-    {
-      icon: <FaCrown />,
-      title: "King Mahabali",
-      desc: "The beloved ruler whose annual return symbolizes equality, prosperity, and happiness.",
-    },
-    {
-      icon: <FaLeaf />,
-      title: "Pookalam",
-      desc: "Intricate floral carpets crafted with vibrant blossoms to warmly welcome Mahabali.",
-    },
-    {
-      icon: <FaUtensils />,
-      title: "Onam Sadya",
-      desc: "A traditional feast served on banana leaves with over 20 delicious vegetarian dishes.",
-    },
-    {
-      icon: <FaWater />,
-      title: "Vallam Kali",
-      desc: "Kerala's spectacular snake boat races showcasing teamwork, tradition, and excitement.",
-    },
-  ];
+import { onamFeatures } from "../data/data";
 
+export default function AboutOnam() {
   return (
     <section
       id="story"
@@ -130,7 +106,7 @@ export default function AboutOnam() {
           {/* Feature Cards */}
 
           <div className="grid sm:grid-cols-2 gap-5 mt-10">
-            {features.map((feature, index) => (
+            {onamFeatures.map((feature, index) => (
               <motion.div
                 key={index}
                 whileHover={{

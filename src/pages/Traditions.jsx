@@ -1,31 +1,6 @@
 import { motion } from "framer-motion";
 
-const traditions = [
-  {
-    title: "Kathakali",
-    image: "/images/kathakali.webp",
-    description:
-      "Kathakali is Kerala's famous classical dance-drama known for elaborate makeup, expressive gestures, and storytelling.",
-  },
-  {
-    title: "Pulikali",
-    image: "/images/pulikali.webp",
-    description:
-      "Pulikali, or Tiger Dance, features performers painted like tigers dancing through the streets during Onam celebrations.",
-  },
-  {
-    title: "Thiruvathira",
-    image: "/images/thiruvathira.webp",
-    description:
-      "Thiruvathira is a graceful traditional dance performed by women in a circle, symbolizing unity and celebration.",
-  },
-  {
-    title: "Chenda Melam",
-    image: "/images/chendamelam.webp",
-    description:
-      "The powerful rhythms of Chenda Melam create an energetic atmosphere during temple festivals and Onam celebrations.",
-  },
-];
+import { traditions } from "../data/data";
 
 export default function Traditions() {
   return (

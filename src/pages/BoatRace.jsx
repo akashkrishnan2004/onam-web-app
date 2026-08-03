@@ -22,7 +22,6 @@ const facts = [
   },
 ];
 
-
 export default function BoatRace() {
   return (
     <section
@@ -30,7 +29,6 @@ export default function BoatRace() {
       className="py-24 px-6 bg-gradient-to-b from-[#FFF8E7] to-sky-50"
     >
       <div className="max-w-7xl mx-auto">
-
         {/* Heading */}
 
         <motion.div
@@ -50,16 +48,15 @@ export default function BoatRace() {
 
           <p className="max-w-3xl mx-auto mt-6 text-lg text-gray-600 leading-8">
             Vallam Kali, the famous snake boat race, is one of Kerala's most
-            spectacular traditions. Hundreds of rowers race together in
-            perfect harmony, creating an unforgettable celebration of teamwork
-            and culture.
+            spectacular traditions. Hundreds of rowers race together in perfect
+            harmony, creating an unforgettable celebration of teamwork and
+            culture.
           </p>
         </motion.div>
 
         {/* Content */}
 
         <div className="grid lg:grid-cols-2 gap-16 items-center mt-20">
-
           {/* Image */}
 
           <motion.div
@@ -104,10 +101,8 @@ export default function BoatRace() {
               </motion.div>
             ))}
           </motion.div>
-
         </div>
-
       </div>
     </section>
   );
-};
+}

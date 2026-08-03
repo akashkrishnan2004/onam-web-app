@@ -1,28 +1,6 @@
 import { motion } from "framer-motion";
-import { FaCrown, FaHeart, FaHandsHelping } from "react-icons/fa";
 
-import MahabaliViewer from "../components/MahabaliViewer";
-
-const features = [
-  {
-    icon: <FaCrown className="text-3xl text-amber-500" />,
-    title: "A Noble King",
-    description:
-      "Mahabali ruled Kerala with justice, equality, prosperity, and peace.",
-  },
-  {
-    icon: <FaHeart className="text-3xl text-red-500" />,
-    title: "Loved by Everyone",
-    description:
-      "His people cherished him because everyone was treated equally and lived happily.",
-  },
-  {
-    icon: <FaHandsHelping className="text-3xl text-green-600" />,
-    title: "The Spirit of Onam",
-    description:
-      "Every Onam celebrates Mahabali's annual visit to see the happiness of his people.",
-  },
-];
+import { MahabaliFeatures } from "../data/data";
 
 export default function Mahabali() {
   return (
@@ -62,7 +40,7 @@ export default function Mahabali() {
           </p>
 
           <div className="grid gap-6 mt-12">
-            {features.map((item) => (
+            {MahabaliFeatures.map((item) => (
               <motion.div
                 key={item.title}
                 whileHover={{ scale: 1.03 }}

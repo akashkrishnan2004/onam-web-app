@@ -1,13 +1,6 @@
 import { motion } from "framer-motion";
 
-const images = [
-  "/images/pookalam1.webp",
-  "/images/pookalam2.webp",
-  "/images/pookalam3.webp",
-  "/images/pookalam4.webp",
-  "/images/pookalam5.webp",
-  "/images/pookalam6.webp",
-];
+import { pookkalamImages } from "../data/data";
 
 export default function Pookalam() {
   return (
@@ -39,7 +32,7 @@ export default function Pookalam() {
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
-          {images.map((image, index) => (
+          {pookkalamImages.map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, scale: 0.9 }}

@@ -1,15 +1,6 @@
 import { motion } from "framer-motion";
 
-const images = [
-  "/images/gallery1.webp",
-  "/images/gallery2.webp",
-  "/images/gallery3.webp",
-  "/images/gallery4.webp",
-  "/images/gallery5.webp",
-  "/images/gallery6.webp",
-  "/images/gallery7.webp",
-  "/images/gallery8.webp",
-];
+import { galleryImages } from "../data/data";
 
 export default function Gallery() {
   return (
@@ -44,7 +35,7 @@ export default function Gallery() {
         {/* Gallery */}
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
-          {images.map((image, index) => (
+          {galleryImages.map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, scale: 0.9 }}

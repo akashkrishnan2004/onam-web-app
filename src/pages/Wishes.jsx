@@ -3,16 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiSparkles } from "react-icons/hi";
 import { FaCrown, FaGift, FaStar } from "react-icons/fa";
 
-const blessings = [
-  "🌸 May King Mahabali bless your home with happiness and prosperity. Happy Onam!",
-  "🪔 Wishing you peace, joy and good health this Onam season.",
-  "🌾 May your life be as abundant as the harvest fields of Kerala.",
-  "🍛 May every Sadya meal bring your family together with love.",
-  "🌺 Let your home bloom with happiness like a beautiful Pookalam.",
-  "💛 May this Onam fill your heart with hope, success and endless smiles.",
-  "✨ Wishing you prosperity, good fortune and unforgettable memories this Onam.",
-  "🌿 May Mahabali's blessings remain with you throughout the year.",
-];
+import { blessings } from "../data/data";
 
 export default function Wishes() {
   const [message, setMessage] = useState("");

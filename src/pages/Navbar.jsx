@@ -1,16 +1,7 @@
 import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 
-const links = [
-  { name: "Home", href: "#home" },
-  { name: "Story", href: "#story" },
-  {name: "Countdown", href : "#countdown"},
-  { name: "Mahabali", href: "#mahabali" },
-  // { name: "Pookalam", href: "#pookalam" },
-  { name: "Sadya", href: "#sadya" },
-  // { name: "Gallery", href: "#gallery" },
-  { name: "Wishes", href: "#wishes" },
-];
+import { links } from "../data/data";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
