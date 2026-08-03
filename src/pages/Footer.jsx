@@ -4,10 +4,12 @@ import { HiArrowUp } from "react-icons/hi";
 const quickLinks = [
   "Home",
   "Story",
+  "Countdown",
   "Mahabali",
-  "Pookalam",
+  // "Pookalam",
   "Sadya",
-  "Gallery",
+  // "Gallery",
+  "Wishes"
 ];
 
 export default function Footer() {
