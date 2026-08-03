@@ -31,7 +31,8 @@ export default function Traditions() {
   return (
     <section
       id="traditions"
-      className="py-24 px-6 bg-gradient-to-b from-sky-50 to-[#FFF8E7]"
+      // className="py-24 px-6 bg-gradient-to-b from-sky-50 to-[#FFF8E7]"
+      className="py-24 px-6 bg-gradient-to-b from-[#E8C76A] via-[#F8E8B5] to-[#FFFDF7]"
     >
       <div className="max-w-7xl mx-auto">
         {/* Heading */}

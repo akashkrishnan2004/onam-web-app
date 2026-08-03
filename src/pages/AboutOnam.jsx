@@ -34,7 +34,8 @@ export default function AboutOnam() {
   return (
     <section
       id="story"
-      className="relative overflow-hidden py-24 px-6 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-100"
+      // className="relative overflow-hidden py-24 px-6 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-100"
+      className="relative overflow-hidden py-24 px-6 bg-gradient-to-b from-[#FFFDF7] via-[#F8E8B5] to-[#E8C76A]"
     >
       {/* Background Glow */}
 

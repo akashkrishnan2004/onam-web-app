@@ -28,7 +28,8 @@ export default function Mahabali() {
   return (
     <section
       id="mahabali"
-      className="py-24 px-6 bg-gradient-to-b from-[#FFF8E7] to-[#F8ECD0]"
+      // className="py-24 px-6 bg-gradient-to-b from-[#FFF8E7] to-[#F8ECD0]"
+      className="py-24 px-6 bg-gradient-to-b from-[#FFFDF7] via-[#F8E8B5] to-[#E8C76A]"
     >
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}

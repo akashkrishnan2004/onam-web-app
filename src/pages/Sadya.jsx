@@ -12,7 +12,8 @@ export default function Sadya() {
   return (
     <section
       id="sadya"
-      className="relative py-24 overflow-hidden bg-gradient-to-b from-[#FFF8E7] via-[#FFF4D6] to-[#FFE9BF]"
+      // className="relative py-24 overflow-hidden bg-gradient-to-b from-[#FFF8E7] via-[#FFF4D6] to-[#FFE9BF]"
+      className="relative py-24 overflow-hidden bg-gradient-to-b from-[#FFFDF7] via-[#F8E8B5] to-[#E8C76A]"
     >
       {/* Background Decorations */}
 

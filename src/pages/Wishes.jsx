@@ -25,7 +25,8 @@ export default function Wishes() {
   return (
     <section
       id="wishes"
-      className="py-24 px-6 bg-gradient-to-b from-[#FFF8E7] to-[#FDF4D8]"
+      // className="py-24 px-6 bg-gradient-to-b from-[#FFF8E7] to-[#FDF4D8]"
+      className="py-24 px-6 bg-gradient-to-b from-[#FFFDF7] via-[#F8E8B5] to-[#E8C76A]"
     >
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
