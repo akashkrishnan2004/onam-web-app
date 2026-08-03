@@ -254,8 +254,8 @@ export const dishes = [
   {
     id: 15,
     name: "Chor",
-    x: 50,
-    y: 78,
+    x: 58,
+    y: 75,
   },
 
   {
