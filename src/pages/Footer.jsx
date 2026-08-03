@@ -101,7 +101,7 @@ export default function Footer() {
 
             <button
               onClick={scrollTop}
-              className="mt-10 bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:scale-105 transition flex items-center gap-2"
+              className="mt-10 bg-yellow-400 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition flex items-center gap-2"
             >
               <HiArrowUp />
               Back to Top
