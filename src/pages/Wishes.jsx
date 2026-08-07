@@ -106,7 +106,7 @@ export default function Wishes() {
       setEmail("");
       setWish("");
 
-      setSuccess("Your Onam wish has been submitted! 🌸");
+      setSuccess("Your Onam wish has been successfully sended! 🌸");
     } catch (firebaseError) {
       console.error("Error submitting wish:", firebaseError);
 

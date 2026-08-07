@@ -11,7 +11,7 @@ export default function Footer() {
 
   const handleShare = async () => {
     const shareData = {
-      title: "OnaVerse - Celebrate the Spirit of Onam",
+      title: "Maveli Nadu - Celebrate the Spirit of Onam",
       text: "Experience the beauty and traditions of Onam with Maveli Nadu! 🌸🌾",
       url: window.location.href,
     };
