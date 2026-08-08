@@ -31,7 +31,7 @@ export default function Navbar() {
           <a
             key={index}
             href="#home"
-            className="text-2xl md:text-4xl font-bold text-amber-600 tracking-wide font-cormorant"
+            className="text-3xl md:text-4xl font-bold text-amber-600 tracking-wide font-cormorant"
           >
             {logo.title}
           </a>
