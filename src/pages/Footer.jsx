@@ -2,10 +2,11 @@ import { FaHeart, FaShareAlt, FaCheck } from "react-icons/fa";
 import { HiArrowUp } from "react-icons/hi";
 import { useState } from "react";
 
+import { logo } from "../data/data";
+
 import { links, socialLinks } from "../data/data";
 
 export default function Footer() {
-
   // Share the link
   const [copied, setCopied] = useState(false);
 
@@ -54,7 +55,15 @@ export default function Footer() {
           {/* Brand */}
 
           <div>
-            <h2 className="text-4xl font-bold text-yellow-300">Maveli Nadu</h2>
+            {logo.map((logo, index) => (
+              <h2 key={index} className="text-4xl font-bold text-yellow-300 tracking-wide font-cormorant">
+                {/* Maveli Nadu */}
+                {logo.title}
+              </h2>
+            ))}
+            {/* <h2 className="text-4xl font-bold text-yellow-300">Maveli Nadu
+              
+            </h2> */}
 
             <p className="mt-6 leading-8 text-gray-300">
               Celebrate the timeless beauty of Kerala's grand festival. OnaVerse
@@ -137,7 +146,8 @@ export default function Footer() {
           <p className="flex items-center gap-2 text-gray-400 md:text-xs">
             Made by
             {/* <span className=" text-yellow-300 md:text-xs "></span>{" "} */}
-            <FaHeart className="text-red-500 md:text-xs" />for Kerala
+            <FaHeart className="text-red-500 md:text-xs" />
+            for Kerala
           </p>
 
           {/* <p className="flex items-center gap-2 text-gray-400">

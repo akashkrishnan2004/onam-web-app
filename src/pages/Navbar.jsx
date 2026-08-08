@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 
-import { links } from "../data/data";
+import { links, logo } from "../data/data";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -27,16 +27,17 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
         {/* Logo */}
-
-        <a
-          href="#home"
-          className="text-3xl font-bold text-amber-600 tracking-wide"
-        >
-          Maveli Nadu
-        </a>
-
+        {logo.map((logo, index) => (
+          <a
+            key={index}
+            href="#home"
+            className="text-4xl font-bold text-amber-600 tracking-wide font-cormorant"
+          >
+            {logo.title}
+          </a>
+        ))}
+        
         {/* Desktop Menu */}
-
         <ul className="hidden lg:flex items-center gap-8 font-medium text-amber-800">
           {links.map((link) => (
             <li key={link.name}>

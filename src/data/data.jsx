@@ -14,6 +14,8 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+export const logo = [{ title: "Maveli Nadu" }];
+
 // Sadya.jsx
 export const dishes = [
   {
