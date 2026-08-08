@@ -31,14 +31,13 @@ export default function Navbar() {
           <a
             key={index}
             href="#home"
-            className="text-4xl font-bold text-amber-600 tracking-wide font-cormorant"
+            className="text-2xl md:text-4xl   font-bold text-amber-600 tracking-wide font-cormorant"
           >
             {logo.title}
           </a>
         ))}
         
         {/* Desktop Menu */}
-
         <ul className="hidden lg:flex items-center gap-8 font-medium text-amber-800">
           {links.map((link) => (
             <li key={link.name}>
@@ -53,7 +52,6 @@ export default function Navbar() {
         </ul>
 
         {/* Mobile Button */}
-
         <button
           className="lg:hidden text-3xl text-amber-600"
           onClick={() => setOpen(!open)}
