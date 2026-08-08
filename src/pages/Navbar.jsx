@@ -38,6 +38,7 @@ export default function Navbar() {
         ))}
         
         {/* Desktop Menu */}
+
         <ul className="hidden lg:flex items-center gap-8 font-medium text-amber-800">
           {links.map((link) => (
             <li key={link.name}>
@@ -54,7 +55,7 @@ export default function Navbar() {
         {/* Mobile Button */}
 
         <button
-          className="lg:hidden text-3xl text-amber-300"
+          className="lg:hidden text-3xl text-amber-600"
           onClick={() => setOpen(!open)}
         >
           {open ? <HiX /> : <HiOutlineMenuAlt3 />}

@@ -55,15 +55,12 @@ export default function Footer() {
           {/* Brand */}
 
           <div>
+            {/* Logo */}
             {logo.map((logo, index) => (
               <h2 key={index} className="text-4xl font-bold text-yellow-300 tracking-wide font-cormorant">
-                {/* Maveli Nadu */}
                 {logo.title}
               </h2>
             ))}
-            {/* <h2 className="text-4xl font-bold text-yellow-300">Maveli Nadu
-              
-            </h2> */}
 
             <p className="mt-6 leading-8 text-gray-300">
               Celebrate the timeless beauty of Kerala's grand festival. OnaVerse
@@ -73,7 +70,6 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-
           <div>
             <h3 className="text-2xl font-semibold mb-6">Quick Links</h3>
 
