@@ -42,7 +42,7 @@ export default function Countdown() {
     return () => clearInterval(timer);
   }, []);
 
-  const items = [
+  const countdownItems = [
     {
       label: "Days",
       value: timeLeft.days,
@@ -102,7 +102,7 @@ export default function Countdown() {
         {/* Countdown Cards */}
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
-          {items.map((item) => (
+          {countdownItems.map((item) => (
             <motion.div
               key={item.label}
               whileHover={{
